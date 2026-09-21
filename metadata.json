@@ -1,0 +1,6 @@
+{
+  "name": "MERZ Security Solutions Payroll",
+  "description": "DOLE D.O. 150-16 compliant security guards payroll and dual-copy payslip system for MERZ Security Solutions Agency Inc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

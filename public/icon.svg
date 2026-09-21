@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <defs>
+    <linearGradient id="goldMetallicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="30%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+
+    <linearGradient id="merzGoldLetterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="35%" stop-color="#fde047" />
+      <stop offset="70%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+
+    <linearGradient id="eagleWingLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="25%" stop-color="#c27803" />
+      <stop offset="60%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#291102" />
+    </linearGradient>
+
+    <linearGradient id="eagleWingRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="25%" stop-color="#c27803" />
+      <stop offset="60%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#291102" />
+    </linearGradient>
+
+    <linearGradient id="eagleChestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="25%" stop-color="#fde68a" />
+      <stop offset="55%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+
+    <path id="textArcCurve" d="M 52 108 C 110 52 290 52 348 108" fill="transparent" />
+
+    <clipPath id="innerShieldClip">
+      <path d="M 200 54 C 255 24 330 30 354 68 C 372 178 300 326 200 398 C 100 326 28 178 46 68 C 70 30 145 24 200 54 Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Outer Heavy Black Rim -->
+  <path
+    d="M 200 44 C 262 12 344 18 370 60 C 390 186 312 346 200 424 C 88 346 10 186 30 60 C 56 18 138 12 200 44 Z"
+    fill="#0a0a0a"
+  />
+
+  <!-- Middle White Gap Channel -->
+  <path
+    d="M 200 50 C 258 20 336 26 360 65 C 378 182 304 334 200 408 C 96 334 22 182 40 65 C 64 26 142 20 200 50 Z"
+    fill="#ffffff"
+    stroke="#000000"
+    stroke-width="1.5"
+  />
+
+  <!-- Inner Black Border Line -->
+  <path
+    d="M 200 54 C 255 24 330 30 354 68 C 372 178 300 326 200 398 C 100 326 28 178 46 68 C 70 30 145 24 200 54 Z"
+    fill="#ffffff"
+    stroke="#000000"
+    stroke-width="3"
+  />
+
+  <!-- Inner Shield Content -->
+  <g clip-path="url(#innerShieldClip)">
+    <rect x="0" y="0" width="400" height="220" fill="#ffffff" />
+    <path d="M 200 130 L 200 420 L 20 420 L 20 130 Z" fill="#0b45a6" />
+    <path d="M 200 130 L 200 420 L 380 420 L 380 130 Z" fill="#ce1126" />
+    <line x1="200" y1="130" x2="200" y2="400" stroke="#000000" stroke-width="2.5" />
+
+    <!-- Sunburst -->
+    <g transform="translate(200, 150)">
+      <g>
+        <!-- 8 primary rays -->
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(45)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(90)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(135)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(180)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(225)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(270)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <g transform="rotate(315)">
+        <polygon points="0,-86 -8,-36 8,-36" fill="#f59e0b" stroke="#b45309" stroke-width="0.8" />
+        <polygon points="0,-82 -4,-36 4,-36" fill="#fef08a" />
+        <polygon points="-13,-72 -15,-36 -8,-36" fill="#f59e0b" />
+        <polygon points="13,-72 8,-36 15,-36" fill="#f59e0b" />
+      </g>
+      <circle cx="0" cy="0" r="42" fill="url(#sunGlow)" stroke="#b45309" stroke-width="2" />
+      <circle cx="0" cy="0" r="36" fill="#fbbf24" />
+    </g>
+
+    <!-- Top Text -->
+    <text style="font-weight: 900;" fill="#090d16">
+      <textPath href="#textArcCurve" startOffset="50%" text-anchor="middle" font-size="20" font-weight="900" font-family="Arial, sans-serif">
+        Security Solutions Agency
+      </textPath>
+    </text>
+    <text x="200" y="94" text-anchor="middle" font-size="15" font-weight="900" font-family="Arial, sans-serif" fill="#090d16">
+      Inc.
+    </text>
+
+    <!-- Eagle -->
+    <g transform="translate(200, 192)">
+      <!-- Left Wing -->
+      <path d="M -25 -5 C -75 -75 -125 -65 -148 -15 C -156 12 -125 50 -45 58 Z" fill="url(#eagleWingLeft)" stroke="#1c0b02" stroke-width="1.8" />
+      <path d="M -30 -10 C -70 -60 -115 -50 -135 -10 C -142 12 -110 40 -45 46 Z" fill="#b45309" stroke="#451a03" stroke-width="1" />
+      <path d="M -25 -15 C -55 -45 -90 -35 -105 -5 C -110 12 -80 30 -35 32 Z" fill="#d97706" />
+
+      <!-- Right Wing -->
+      <path d="M 25 -5 C 75 -75 125 -65 148 -15 C 156 12 125 50 45 58 Z" fill="url(#eagleWingRight)" stroke="#1c0b02" stroke-width="1.8" />
+      <path d="M 30 -10 C 70 -60 115 -50 135 -10 C 142 12 110 40 45 46 Z" fill="#b45309" stroke="#451a03" stroke-width="1" />
+      <path d="M 25 -15 C 55 -45 90 -35 105 -5 C 110 12 80 30 35 32 Z" fill="#d97706" />
+
+      <!-- Tail -->
+      <polygon points="0,75 -26,18 26,18" fill="#78350f" stroke="#291102" stroke-width="1.2" />
+      <polygon points="-14,70 -38,15 -10,15" fill="#92400e" stroke="#291102" stroke-width="1" />
+      <polygon points="14,70 10,15 38,15" fill="#92400e" stroke="#291102" stroke-width="1" />
+      <line x1="0" y1="18" x2="0" y2="70" stroke="#fbbf24" stroke-width="2" />
+
+      <!-- Breast -->
+      <path d="M 0 68 C -26 52 -34 16 -24 -24 C -14 -55 14 -55 24 -24 C 34 16 26 52 0 68 Z" fill="url(#eagleChestGrad)" stroke="#291102" stroke-width="2" />
+
+      <!-- Head -->
+      <g transform="translate(0, -22)">
+        <path d="M -16 -10 L -8 -26 L 0 -18 L 8 -26 L 16 -10 Z" fill="#fbbf24" stroke="#78350f" stroke-width="1.2" />
+        <ellipse cx="0" cy="-6" rx="14" ry="16" fill="#fef3c7" stroke="#78350f" stroke-width="1" />
+        <ellipse cx="-6" cy="-8" rx="2.5" ry="3.2" fill="#ffffff" stroke="#000000" stroke-width="0.8" />
+        <circle cx="-5.5" cy="-8" r="1.5" fill="#090d16" />
+        <ellipse cx="6" cy="-8" rx="2.5" ry="3.2" fill="#ffffff" stroke="#000000" stroke-width="0.8" />
+        <circle cx="5.5" cy="-8" r="1.5" fill="#090d16" />
+        <path d="M -5 -4 L 0 16 L 5 -4 Q 0 -1 -5 -4 Z" fill="#f59e0b" stroke="#78350f" stroke-width="1.2" />
+      </g>
+    </g>
+
+    <!-- MERZ Cartouche -->
+    <g transform="translate(200, 274)">
+      <path
+        d="M -78 -18 L 78 -18 C 84 -18 88 -14 88 -8 C 84 -4 84 4 88 8 C 88 14 84 18 78 18 L -78 18 C -84 18 -88 14 -88 8 C -84 4 -84 -4 -88 -8 C -88 -14 -84 -18 -78 -18 Z"
+        fill="url(#goldMetallicGrad)"
+        stroke="#451a03"
+        stroke-width="2"
+      />
+      <path
+        d="M -74 -14 L 74 -14 C 79 -14 83 -11 83 -6 C 80 -3 80 3 83 6 C 83 11 79 14 74 14 L -74 14 C -79 14 -83 11 -83 6 C -80 3 -80 -3 -83 -6 C -83 -11 -79 -14 -74 -14 Z"
+        fill="#090d16"
+      />
+      <text
+        x="0"
+        y="7"
+        text-anchor="middle"
+        font-family="'Arial Black', Impact, sans-serif"
+        font-size="24"
+        font-weight="900"
+        letter-spacing="3px"
+        fill="url(#merzGoldLetterGrad)"
+        stroke="#000000"
+        stroke-width="0.8"
+      >
+        MERZ
+      </text>
+    </g>
+
+    <!-- Laurel Wreath -->
+    <g transform="translate(200, 362)">
+      <path d="M -12 30 C -65 24 -115 -15 -124 -65" stroke="#eab308" stroke-width="3.5" stroke-linecap="round" fill="none" />
+      <path d="M 12 30 C 65 24 115 -15 124 -65" stroke="#eab308" stroke-width="3.5" stroke-linecap="round" fill="none" />
+      <circle cx="0" cy="30" r="4.5" fill="#ca8a04" stroke="#713f12" stroke-width="1" />
+    </g>
+  </g>
+
+  <!-- Final border -->
+  <path
+    d="M 200 54 C 255 24 330 30 354 68 C 372 178 300 326 200 398 C 100 326 28 178 46 68 C 70 30 145 24 200 54 Z"
+    fill="none"
+    stroke="#000000"
+    stroke-width="3"
+  />
+</svg>
